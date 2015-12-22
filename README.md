@@ -15,3 +15,46 @@ public class SumIntFloat {
 
 }
 
+Assignment 2
+
+public class ThreeIntVal {
+
+	public static void main(String[] args) {
+		int a,b=4,c;
+		a=b;
+		c=a++;
+		System.out.println("a = "+a);
+		System.out.println("b = "+b);
+		System.out.println("c = "+c);
+
+	}
+
+}
+
+Assignment 3
+
+public class IntCompErr {
+
+	public static void main(String[] args) {
+		int a=2.00,b=2147483648;
+		System.out.println(a);
+		System.out.println(b);
+
+	}
+
+}
+
+Assignment 4
+
+public class ArthOptInt {
+
+	public static void main(String[] args) {
+		int x=5,y=10;
+		System.out.println(x+y*2);
+		System.out.println(x-y+2);
+		System.out.println((x+y)*2);
+		System.out.println(y%x);
+
+	}
+
+}
